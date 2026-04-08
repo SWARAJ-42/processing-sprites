@@ -108,8 +108,12 @@ def _scale_to_min512(
     h: int,
 ) -> Tuple[List[Image.Image], int, int, bool]:
     """
-    If min(w, h) < 512, upscale uniformly (Lanczos) so that
+    If min(w, h) < 512, upscale uniformly (NEAREST for pixel-perfect scaling) so that
     min-side == 512 and both dimensions remain multiples of 32.
+
+    NOTE:
+    - Changed from Lanczos → NEAREST to prevent pixel tearing/blurring.
+    - This preserves sharp pixel-art blocks exactly.
 
     If already large enough, return unchanged.
 
@@ -128,7 +132,9 @@ def _scale_to_min512(
     new_w = _ceil32(raw_w)
     new_h = _ceil32(raw_h)
 
-    out = [f.resize((new_w, new_h), Image.LANCZOS) for f in frames]
+    # --- IMPORTANT CHANGE HERE ---
+    out = [f.resize((new_w, new_h), Image.NEAREST) for f in frames]
+
     return out, new_w, new_h, True
 
 
