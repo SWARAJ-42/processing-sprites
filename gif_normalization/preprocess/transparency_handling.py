@@ -175,17 +175,8 @@ def handle_transparency(
 ) -> Tuple[List[Image.Image], str, List[str]]:
     """
     Replace transparent areas with a high-contrast background colour.
-
-    Parameters
-    ----------
-    frames : list of PIL.Image (RGBA expected)
-
-    Returns
-    -------
-    out_frames   : composited RGBA frames (fully opaque)
-    bgcolor_hex  : '#RRGGBB' string of the chosen background colour
-    warnings     : list of warning strings (may be empty)
     """
+
     warnings: List[str] = []
 
     # Check whether any frame actually has transparent pixels
@@ -196,10 +187,22 @@ def handle_transparency(
             has_alpha = True
             break
 
+    # NEW LOGIC: if no transparency, infer bg from left border
     if not has_alpha:
-        # No transparency – return as-is with a fallback white bgcolor
-        return frames, "#ffffff", warnings
+        first = np.asarray(frames[0].convert("RGB"))
 
+        # Extract left border (all rows, column 0)
+        left_border = first[:, 0, :]  # shape (H, 3)
+
+        # Find dominant color
+        colors, counts = np.unique(left_border, axis=0, return_counts=True)
+        dominant = colors[np.argmax(counts)]
+
+        bgcolor_hex = "#{:02x}{:02x}{:02x}".format(*dominant)
+
+        return frames, bgcolor_hex, warnings
+
+    # Existing transparency logic
     visible = _collect_visible_colors(frames)
     bg_rgb = _choose_background(visible)
     bgcolor_hex = "#{:02x}{:02x}{:02x}".format(*bg_rgb)
@@ -209,4 +212,5 @@ def handle_transparency(
     warnings.append(
         f"transparency_handling: replaced alpha with background colour {bgcolor_hex}."
     )
+
     return out_frames, bgcolor_hex, warnings
