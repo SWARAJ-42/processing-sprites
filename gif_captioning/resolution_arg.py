@@ -37,5 +37,5 @@ def extract_resolutions(folder_path):
 
 
 # usage
-folder_path = r"C:\Users\marsl\Desktop\Stuff\startup_projects\SpriteLoop\general\processing-sprites\assets\attack\dataset"
+folder_path = r"C:\Users\marsl\Desktop\Stuff\startup_projects\SpriteLoop\general\processing-sprites\dataset_candidate"
 extract_resolutions(folder_path)

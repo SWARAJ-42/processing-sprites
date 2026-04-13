@@ -1,6 +1,6 @@
 [
   {
-    "media_path": "./dataset/0001_Bow_arrow_animation_1.gif",
+    "media_path": "./dataset/0001_Bow_arrow_animation_1.mp4",
     "original_path": "./Bow_arrow_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0002_Bow_arrow_animation_2.gif",
+    "media_path": "./dataset/0002_Bow_arrow_animation_2.mp4",
     "original_path": "./Bow_arrow_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0003_Bow_arrow_animation_3.gif",
+    "media_path": "./dataset/0003_Bow_arrow_animation_3.mp4",
     "original_path": "./Bow_arrow_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0004_Bow_arrow_animation_4.gif",
+    "media_path": "./dataset/0004_Bow_arrow_animation_4.mp4",
     "original_path": "./Bow_arrow_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0005_Bow_arrow_animation_5.gif",
+    "media_path": "./dataset/0005_Bow_arrow_animation_5.mp4",
     "original_path": "./Bow_arrow_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0006_Bow_arrow_animation_6.gif",
+    "media_path": "./dataset/0006_Bow_arrow_animation_6.mp4",
     "original_path": "./Bow_arrow_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0007_Bow_arrow_animation_7.gif",
+    "media_path": "./dataset/0007_Bow_arrow_animation_7.mp4",
     "original_path": "./Bow_arrow_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0008_Bow_arrow_animation_8.gif",
+    "media_path": "./dataset/0008_Bow_arrow_animation_8.mp4",
     "original_path": "./Bow_arrow_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0009_combat_idle_animation_1.gif",
+    "media_path": "./dataset/0009_combat_idle_animation_1.mp4",
     "original_path": "./combat_idle_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0010_combat_idle_animation_10.gif",
+    "media_path": "./dataset/0010_combat_idle_animation_10.mp4",
     "original_path": "./combat_idle_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0011_combat_idle_animation_11.gif",
+    "media_path": "./dataset/0011_combat_idle_animation_11.mp4",
     "original_path": "./combat_idle_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0012_combat_idle_animation_12.gif",
+    "media_path": "./dataset/0012_combat_idle_animation_12.mp4",
     "original_path": "./combat_idle_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0013_combat_idle_animation_13.gif",
+    "media_path": "./dataset/0013_combat_idle_animation_13.mp4",
     "original_path": "./combat_idle_animation/13.gif",
     "width": 768,
     "height": 768,
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0014_combat_idle_animation_14.gif",
+    "media_path": "./dataset/0014_combat_idle_animation_14.mp4",
     "original_path": "./combat_idle_animation/14.gif",
     "width": 768,
     "height": 768,
@@ -205,7 +205,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0015_combat_idle_animation_15.gif",
+    "media_path": "./dataset/0015_combat_idle_animation_15.mp4",
     "original_path": "./combat_idle_animation/15.gif",
     "width": 768,
     "height": 768,
@@ -219,7 +219,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0016_combat_idle_animation_16.gif",
+    "media_path": "./dataset/0016_combat_idle_animation_16.mp4",
     "original_path": "./combat_idle_animation/16.gif",
     "width": 768,
     "height": 768,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0017_combat_idle_animation_17.gif",
+    "media_path": "./dataset/0017_combat_idle_animation_17.mp4",
     "original_path": "./combat_idle_animation/17.gif",
     "width": 768,
     "height": 768,
@@ -249,7 +249,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0018_combat_idle_animation_18.gif",
+    "media_path": "./dataset/0018_combat_idle_animation_18.mp4",
     "original_path": "./combat_idle_animation/18.gif",
     "width": 768,
     "height": 768,
@@ -265,7 +265,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0019_combat_idle_animation_2.gif",
+    "media_path": "./dataset/0019_combat_idle_animation_2.mp4",
     "original_path": "./combat_idle_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0020_combat_idle_animation_3.gif",
+    "media_path": "./dataset/0020_combat_idle_animation_3.mp4",
     "original_path": "./combat_idle_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -294,7 +294,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0021_combat_idle_animation_4.gif",
+    "media_path": "./dataset/0021_combat_idle_animation_4.mp4",
     "original_path": "./combat_idle_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0022_combat_idle_animation_5.gif",
+    "media_path": "./dataset/0022_combat_idle_animation_5.mp4",
     "original_path": "./combat_idle_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0023_combat_idle_animation_6.gif",
+    "media_path": "./dataset/0023_combat_idle_animation_6.mp4",
     "original_path": "./combat_idle_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -339,7 +339,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0024_combat_idle_animation_7.gif",
+    "media_path": "./dataset/0024_combat_idle_animation_7.mp4",
     "original_path": "./combat_idle_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -354,7 +354,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0025_combat_idle_animation_8.gif",
+    "media_path": "./dataset/0025_combat_idle_animation_8.mp4",
     "original_path": "./combat_idle_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -369,7 +369,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0026_combat_idle_animation_9.gif",
+    "media_path": "./dataset/0026_combat_idle_animation_9.mp4",
     "original_path": "./combat_idle_animation/9.gif",
     "width": 768,
     "height": 768,
@@ -384,7 +384,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0027_gun_animation_1.gif",
+    "media_path": "./dataset/0027_gun_animation_1.mp4",
     "original_path": "./gun_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -398,7 +398,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0028_gun_animation_10.gif",
+    "media_path": "./dataset/0028_gun_animation_10.mp4",
     "original_path": "./gun_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -411,7 +411,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0029_gun_animation_11.gif",
+    "media_path": "./dataset/0029_gun_animation_11.mp4",
     "original_path": "./gun_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -427,7 +427,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0030_gun_animation_12.gif",
+    "media_path": "./dataset/0030_gun_animation_12.mp4",
     "original_path": "./gun_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -441,7 +441,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0031_gun_animation_13.gif",
+    "media_path": "./dataset/0031_gun_animation_13.mp4",
     "original_path": "./gun_animation/13.gif",
     "width": 768,
     "height": 768,
@@ -456,7 +456,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0032_gun_animation_14.gif",
+    "media_path": "./dataset/0032_gun_animation_14.mp4",
     "original_path": "./gun_animation/14.gif",
     "width": 768,
     "height": 768,
@@ -472,7 +472,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0033_gun_animation_15.gif",
+    "media_path": "./dataset/0033_gun_animation_15.mp4",
     "original_path": "./gun_animation/15.gif",
     "width": 768,
     "height": 768,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0034_gun_animation_16.gif",
+    "media_path": "./dataset/0034_gun_animation_16.mp4",
     "original_path": "./gun_animation/16.gif",
     "width": 768,
     "height": 768,
@@ -501,7 +501,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0035_gun_animation_17.gif",
+    "media_path": "./dataset/0035_gun_animation_17.mp4",
     "original_path": "./gun_animation/17.gif",
     "width": 768,
     "height": 768,
@@ -516,7 +516,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0036_gun_animation_2.gif",
+    "media_path": "./dataset/0036_gun_animation_2.mp4",
     "original_path": "./gun_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -530,7 +530,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0037_gun_animation_3.gif",
+    "media_path": "./dataset/0037_gun_animation_3.mp4",
     "original_path": "./gun_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -545,7 +545,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0038_gun_animation_4.gif",
+    "media_path": "./dataset/0038_gun_animation_4.mp4",
     "original_path": "./gun_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0039_gun_animation_5.gif",
+    "media_path": "./dataset/0039_gun_animation_5.mp4",
     "original_path": "./gun_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -575,7 +575,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0040_gun_animation_6.gif",
+    "media_path": "./dataset/0040_gun_animation_6.mp4",
     "original_path": "./gun_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -591,7 +591,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0041_gun_animation_7.gif",
+    "media_path": "./dataset/0041_gun_animation_7.mp4",
     "original_path": "./gun_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -607,7 +607,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0042_gun_animation_8.gif",
+    "media_path": "./dataset/0042_gun_animation_8.mp4",
     "original_path": "./gun_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -622,7 +622,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0043_gun_animation_9.gif",
+    "media_path": "./dataset/0043_gun_animation_9.mp4",
     "original_path": "./gun_animation/9.gif",
     "width": 768,
     "height": 768,
@@ -637,7 +637,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0044_kick_animation_1.gif",
+    "media_path": "./dataset/0044_kick_animation_1.mp4",
     "original_path": "./kick_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -653,7 +653,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0045_kick_animation_10.gif",
+    "media_path": "./dataset/0045_kick_animation_10.mp4",
     "original_path": "./kick_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -669,7 +669,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0046_kick_animation_11.gif",
+    "media_path": "./dataset/0046_kick_animation_11.mp4",
     "original_path": "./kick_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0047_kick_animation_12.gif",
+    "media_path": "./dataset/0047_kick_animation_12.mp4",
     "original_path": "./kick_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -699,7 +699,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0048_kick_animation_2.gif",
+    "media_path": "./dataset/0048_kick_animation_2.mp4",
     "original_path": "./kick_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -715,7 +715,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0049_kick_animation_3.gif",
+    "media_path": "./dataset/0049_kick_animation_3.mp4",
     "original_path": "./kick_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0050_kick_animation_4.gif",
+    "media_path": "./dataset/0050_kick_animation_4.mp4",
     "original_path": "./kick_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -744,7 +744,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0051_kick_animation_5.gif",
+    "media_path": "./dataset/0051_kick_animation_5.mp4",
     "original_path": "./kick_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -760,7 +760,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0052_kick_animation_6.gif",
+    "media_path": "./dataset/0052_kick_animation_6.mp4",
     "original_path": "./kick_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -776,7 +776,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0053_kick_animation_7.gif",
+    "media_path": "./dataset/0053_kick_animation_7.mp4",
     "original_path": "./kick_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -791,7 +791,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0054_kick_animation_8.gif",
+    "media_path": "./dataset/0054_kick_animation_8.mp4",
     "original_path": "./kick_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -806,7 +806,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0055_kick_animation_9.gif",
+    "media_path": "./dataset/0055_kick_animation_9.mp4",
     "original_path": "./kick_animation/9.gif",
     "width": 768,
     "height": 768,
@@ -820,7 +820,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0056_punch_animation_1.gif",
+    "media_path": "./dataset/0056_punch_animation_1.mp4",
     "original_path": "./punch_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -836,7 +836,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0057_punch_animation_10.gif",
+    "media_path": "./dataset/0057_punch_animation_10.mp4",
     "original_path": "./punch_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -852,7 +852,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0058_punch_animation_11.gif",
+    "media_path": "./dataset/0058_punch_animation_11.mp4",
     "original_path": "./punch_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -868,7 +868,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0059_punch_animation_12.gif",
+    "media_path": "./dataset/0059_punch_animation_12.mp4",
     "original_path": "./punch_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -884,7 +884,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0060_punch_animation_13.gif",
+    "media_path": "./dataset/0060_punch_animation_13.mp4",
     "original_path": "./punch_animation/13.gif",
     "width": 768,
     "height": 768,
@@ -898,7 +898,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0061_punch_animation_14.gif",
+    "media_path": "./dataset/0061_punch_animation_14.mp4",
     "original_path": "./punch_animation/14.gif",
     "width": 768,
     "height": 768,
@@ -914,7 +914,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0062_punch_animation_15.gif",
+    "media_path": "./dataset/0062_punch_animation_15.mp4",
     "original_path": "./punch_animation/15.gif",
     "width": 768,
     "height": 768,
@@ -930,7 +930,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0063_punch_animation_16.gif",
+    "media_path": "./dataset/0063_punch_animation_16.mp4",
     "original_path": "./punch_animation/16.gif",
     "width": 768,
     "height": 768,
@@ -945,7 +945,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0064_punch_animation_17.gif",
+    "media_path": "./dataset/0064_punch_animation_17.mp4",
     "original_path": "./punch_animation/17.gif",
     "width": 768,
     "height": 768,
@@ -960,7 +960,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0065_punch_animation_18.gif",
+    "media_path": "./dataset/0065_punch_animation_18.mp4",
     "original_path": "./punch_animation/18.gif",
     "width": 768,
     "height": 768,
@@ -974,7 +974,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0066_punch_animation_19.gif",
+    "media_path": "./dataset/0066_punch_animation_19.mp4",
     "original_path": "./punch_animation/19.gif",
     "width": 768,
     "height": 768,
@@ -988,7 +988,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0067_punch_animation_2.gif",
+    "media_path": "./dataset/0067_punch_animation_2.mp4",
     "original_path": "./punch_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -1002,7 +1002,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0068_punch_animation_20.gif",
+    "media_path": "./dataset/0068_punch_animation_20.mp4",
     "original_path": "./punch_animation/20.gif",
     "width": 768,
     "height": 768,
@@ -1016,7 +1016,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0069_punch_animation_21.gif",
+    "media_path": "./dataset/0069_punch_animation_21.mp4",
     "original_path": "./punch_animation/21.gif",
     "width": 768,
     "height": 768,
@@ -1030,7 +1030,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0070_punch_animation_22.gif",
+    "media_path": "./dataset/0070_punch_animation_22.mp4",
     "original_path": "./punch_animation/22.gif",
     "width": 768,
     "height": 768,
@@ -1044,7 +1044,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0071_punch_animation_23.gif",
+    "media_path": "./dataset/0071_punch_animation_23.mp4",
     "original_path": "./punch_animation/23.gif",
     "width": 768,
     "height": 768,
@@ -1059,7 +1059,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0072_punch_animation_24.gif",
+    "media_path": "./dataset/0072_punch_animation_24.mp4",
     "original_path": "./punch_animation/24.gif",
     "width": 768,
     "height": 768,
@@ -1074,7 +1074,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0073_punch_animation_25.gif",
+    "media_path": "./dataset/0073_punch_animation_25.mp4",
     "original_path": "./punch_animation/25.gif",
     "width": 768,
     "height": 768,
@@ -1088,7 +1088,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0074_punch_animation_26.gif",
+    "media_path": "./dataset/0074_punch_animation_26.mp4",
     "original_path": "./punch_animation/26.gif",
     "width": 768,
     "height": 768,
@@ -1103,7 +1103,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0075_punch_animation_27.gif",
+    "media_path": "./dataset/0075_punch_animation_27.mp4",
     "original_path": "./punch_animation/27.gif",
     "width": 768,
     "height": 768,
@@ -1118,7 +1118,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0076_punch_animation_28.gif",
+    "media_path": "./dataset/0076_punch_animation_28.mp4",
     "original_path": "./punch_animation/28.gif",
     "width": 768,
     "height": 768,
@@ -1134,7 +1134,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0077_punch_animation_29.gif",
+    "media_path": "./dataset/0077_punch_animation_29.mp4",
     "original_path": "./punch_animation/29.gif",
     "width": 768,
     "height": 768,
@@ -1149,7 +1149,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0078_punch_animation_3.gif",
+    "media_path": "./dataset/0078_punch_animation_3.mp4",
     "original_path": "./punch_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -1162,7 +1162,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0079_punch_animation_30.gif",
+    "media_path": "./dataset/0079_punch_animation_30.mp4",
     "original_path": "./punch_animation/30.gif",
     "width": 768,
     "height": 768,
@@ -1177,7 +1177,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0080_punch_animation_31.gif",
+    "media_path": "./dataset/0080_punch_animation_31.mp4",
     "original_path": "./punch_animation/31.gif",
     "width": 768,
     "height": 768,
@@ -1192,7 +1192,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0081_punch_animation_32.gif",
+    "media_path": "./dataset/0081_punch_animation_32.mp4",
     "original_path": "./punch_animation/32.gif",
     "width": 768,
     "height": 768,
@@ -1207,7 +1207,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0082_punch_animation_4.gif",
+    "media_path": "./dataset/0082_punch_animation_4.mp4",
     "original_path": "./punch_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -1223,7 +1223,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0083_punch_animation_5.gif",
+    "media_path": "./dataset/0083_punch_animation_5.mp4",
     "original_path": "./punch_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -1238,7 +1238,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0084_punch_animation_6.gif",
+    "media_path": "./dataset/0084_punch_animation_6.mp4",
     "original_path": "./punch_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -1253,7 +1253,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0085_punch_animation_7.gif",
+    "media_path": "./dataset/0085_punch_animation_7.mp4",
     "original_path": "./punch_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -1269,7 +1269,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0086_punch_animation_8.gif",
+    "media_path": "./dataset/0086_punch_animation_8.mp4",
     "original_path": "./punch_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -1285,7 +1285,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0087_punch_animation_9.gif",
+    "media_path": "./dataset/0087_punch_animation_9.mp4",
     "original_path": "./punch_animation/9.gif",
     "width": 768,
     "height": 768,
@@ -1301,7 +1301,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0088_Slash_animation_1.gif",
+    "media_path": "./dataset/0088_Slash_animation_1.mp4",
     "original_path": "./Slash_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -1315,7 +1315,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0089_Slash_animation_10.gif",
+    "media_path": "./dataset/0089_Slash_animation_10.mp4",
     "original_path": "./Slash_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -1329,7 +1329,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0090_Slash_animation_11.gif",
+    "media_path": "./dataset/0090_Slash_animation_11.mp4",
     "original_path": "./Slash_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -1344,7 +1344,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0091_Slash_animation_12.gif",
+    "media_path": "./dataset/0091_Slash_animation_12.mp4",
     "original_path": "./Slash_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -1359,7 +1359,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0092_Slash_animation_13.gif",
+    "media_path": "./dataset/0092_Slash_animation_13.mp4",
     "original_path": "./Slash_animation/13.gif",
     "width": 768,
     "height": 768,
@@ -1373,7 +1373,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0093_Slash_animation_14.gif",
+    "media_path": "./dataset/0093_Slash_animation_14.mp4",
     "original_path": "./Slash_animation/14.gif",
     "width": 768,
     "height": 768,
@@ -1387,7 +1387,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0094_Slash_animation_15.gif",
+    "media_path": "./dataset/0094_Slash_animation_15.mp4",
     "original_path": "./Slash_animation/15.gif",
     "width": 768,
     "height": 768,
@@ -1402,7 +1402,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0095_Slash_animation_16.gif",
+    "media_path": "./dataset/0095_Slash_animation_16.mp4",
     "original_path": "./Slash_animation/16.gif",
     "width": 768,
     "height": 768,
@@ -1417,7 +1417,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0096_Slash_animation_17.gif",
+    "media_path": "./dataset/0096_Slash_animation_17.mp4",
     "original_path": "./Slash_animation/17.gif",
     "width": 768,
     "height": 768,
@@ -1431,7 +1431,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0097_Slash_animation_18.gif",
+    "media_path": "./dataset/0097_Slash_animation_18.mp4",
     "original_path": "./Slash_animation/18.gif",
     "width": 768,
     "height": 768,
@@ -1445,7 +1445,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0098_Slash_animation_19.gif",
+    "media_path": "./dataset/0098_Slash_animation_19.mp4",
     "original_path": "./Slash_animation/19.gif",
     "width": 768,
     "height": 768,
@@ -1460,7 +1460,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0099_Slash_animation_2.gif",
+    "media_path": "./dataset/0099_Slash_animation_2.mp4",
     "original_path": "./Slash_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -1474,7 +1474,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0100_Slash_animation_20.gif",
+    "media_path": "./dataset/0100_Slash_animation_20.mp4",
     "original_path": "./Slash_animation/20.gif",
     "width": 768,
     "height": 768,
@@ -1488,7 +1488,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0101_Slash_animation_21.gif",
+    "media_path": "./dataset/0101_Slash_animation_21.mp4",
     "original_path": "./Slash_animation/21.gif",
     "width": 768,
     "height": 768,
@@ -1503,7 +1503,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0102_Slash_animation_22.gif",
+    "media_path": "./dataset/0102_Slash_animation_22.mp4",
     "original_path": "./Slash_animation/22.gif",
     "width": 768,
     "height": 768,
@@ -1518,7 +1518,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0103_Slash_animation_23.gif",
+    "media_path": "./dataset/0103_Slash_animation_23.mp4",
     "original_path": "./Slash_animation/23.gif",
     "width": 768,
     "height": 768,
@@ -1534,7 +1534,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0104_Slash_animation_24.gif",
+    "media_path": "./dataset/0104_Slash_animation_24.mp4",
     "original_path": "./Slash_animation/24.gif",
     "width": 768,
     "height": 768,
@@ -1549,7 +1549,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0105_Slash_animation_25.gif",
+    "media_path": "./dataset/0105_Slash_animation_25.mp4",
     "original_path": "./Slash_animation/25.gif",
     "width": 768,
     "height": 768,
@@ -1564,7 +1564,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0106_Slash_animation_26.gif",
+    "media_path": "./dataset/0106_Slash_animation_26.mp4",
     "original_path": "./Slash_animation/26.gif",
     "width": 768,
     "height": 768,
@@ -1579,7 +1579,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0107_Slash_animation_27.gif",
+    "media_path": "./dataset/0107_Slash_animation_27.mp4",
     "original_path": "./Slash_animation/27.gif",
     "width": 768,
     "height": 768,
@@ -1594,7 +1594,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0108_Slash_animation_28.gif",
+    "media_path": "./dataset/0108_Slash_animation_28.mp4",
     "original_path": "./Slash_animation/28.gif",
     "width": 768,
     "height": 768,
@@ -1608,7 +1608,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0109_Slash_animation_29.gif",
+    "media_path": "./dataset/0109_Slash_animation_29.mp4",
     "original_path": "./Slash_animation/29.gif",
     "width": 768,
     "height": 768,
@@ -1622,7 +1622,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0110_Slash_animation_3.gif",
+    "media_path": "./dataset/0110_Slash_animation_3.mp4",
     "original_path": "./Slash_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -1637,7 +1637,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0111_Slash_animation_30.gif",
+    "media_path": "./dataset/0111_Slash_animation_30.mp4",
     "original_path": "./Slash_animation/30.gif",
     "width": 768,
     "height": 768,
@@ -1652,7 +1652,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0112_Slash_animation_31.gif",
+    "media_path": "./dataset/0112_Slash_animation_31.mp4",
     "original_path": "./Slash_animation/31.gif",
     "width": 768,
     "height": 768,
@@ -1667,7 +1667,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0113_Slash_animation_32.gif",
+    "media_path": "./dataset/0113_Slash_animation_32.mp4",
     "original_path": "./Slash_animation/32.gif",
     "width": 768,
     "height": 768,
@@ -1681,7 +1681,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0114_Slash_animation_33.gif",
+    "media_path": "./dataset/0114_Slash_animation_33.mp4",
     "original_path": "./Slash_animation/33.gif",
     "width": 768,
     "height": 768,
@@ -1696,7 +1696,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0115_Slash_animation_34.gif",
+    "media_path": "./dataset/0115_Slash_animation_34.mp4",
     "original_path": "./Slash_animation/34.gif",
     "width": 768,
     "height": 768,
@@ -1710,7 +1710,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0116_Slash_animation_35.gif",
+    "media_path": "./dataset/0116_Slash_animation_35.mp4",
     "original_path": "./Slash_animation/35.gif",
     "width": 768,
     "height": 768,
@@ -1725,7 +1725,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0117_Slash_animation_36.gif",
+    "media_path": "./dataset/0117_Slash_animation_36.mp4",
     "original_path": "./Slash_animation/36.gif",
     "width": 768,
     "height": 768,
@@ -1739,7 +1739,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0118_Slash_animation_37.gif",
+    "media_path": "./dataset/0118_Slash_animation_37.mp4",
     "original_path": "./Slash_animation/37.gif",
     "width": 768,
     "height": 768,
@@ -1753,7 +1753,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0119_Slash_animation_38.gif",
+    "media_path": "./dataset/0119_Slash_animation_38.mp4",
     "original_path": "./Slash_animation/38.gif",
     "width": 768,
     "height": 768,
@@ -1767,7 +1767,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0120_Slash_animation_39.gif",
+    "media_path": "./dataset/0120_Slash_animation_39.mp4",
     "original_path": "./Slash_animation/39.gif",
     "width": 768,
     "height": 768,
@@ -1782,7 +1782,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0121_Slash_animation_4.gif",
+    "media_path": "./dataset/0121_Slash_animation_4.mp4",
     "original_path": "./Slash_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -1796,7 +1796,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0122_Slash_animation_40.gif",
+    "media_path": "./dataset/0122_Slash_animation_40.mp4",
     "original_path": "./Slash_animation/40.gif",
     "width": 768,
     "height": 768,
@@ -1811,7 +1811,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0123_Slash_animation_41.gif",
+    "media_path": "./dataset/0123_Slash_animation_41.mp4",
     "original_path": "./Slash_animation/41.gif",
     "width": 768,
     "height": 768,
@@ -1825,7 +1825,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0124_Slash_animation_42.gif",
+    "media_path": "./dataset/0124_Slash_animation_42.mp4",
     "original_path": "./Slash_animation/42.gif",
     "width": 768,
     "height": 768,
@@ -1839,7 +1839,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0125_Slash_animation_43.gif",
+    "media_path": "./dataset/0125_Slash_animation_43.mp4",
     "original_path": "./Slash_animation/43.gif",
     "width": 768,
     "height": 768,
@@ -1853,7 +1853,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0126_Slash_animation_5.gif",
+    "media_path": "./dataset/0126_Slash_animation_5.mp4",
     "original_path": "./Slash_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -1868,7 +1868,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0127_Slash_animation_6.gif",
+    "media_path": "./dataset/0127_Slash_animation_6.mp4",
     "original_path": "./Slash_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -1883,7 +1883,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0128_Slash_animation_7.gif",
+    "media_path": "./dataset/0128_Slash_animation_7.mp4",
     "original_path": "./Slash_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -1898,7 +1898,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0129_Slash_animation_8.gif",
+    "media_path": "./dataset/0129_Slash_animation_8.mp4",
     "original_path": "./Slash_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -1913,7 +1913,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0130_Slash_animation_9.gif",
+    "media_path": "./dataset/0130_Slash_animation_9.mp4",
     "original_path": "./Slash_animation/9.gif",
     "width": 768,
     "height": 768,
@@ -1927,7 +1927,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0131_special_animation_1.gif",
+    "media_path": "./dataset/0131_special_animation_1.mp4",
     "original_path": "./special_animation/1.gif",
     "width": 768,
     "height": 768,
@@ -1943,7 +1943,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0132_special_animation_10.gif",
+    "media_path": "./dataset/0132_special_animation_10.mp4",
     "original_path": "./special_animation/10.gif",
     "width": 768,
     "height": 768,
@@ -1958,7 +1958,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0133_special_animation_11.gif",
+    "media_path": "./dataset/0133_special_animation_11.mp4",
     "original_path": "./special_animation/11.gif",
     "width": 768,
     "height": 768,
@@ -1973,7 +1973,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0134_special_animation_12.gif",
+    "media_path": "./dataset/0134_special_animation_12.mp4",
     "original_path": "./special_animation/12.gif",
     "width": 768,
     "height": 768,
@@ -1988,7 +1988,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0135_special_animation_13.gif",
+    "media_path": "./dataset/0135_special_animation_13.mp4",
     "original_path": "./special_animation/13.gif",
     "width": 768,
     "height": 768,
@@ -2004,7 +2004,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0136_special_animation_14.gif",
+    "media_path": "./dataset/0136_special_animation_14.mp4",
     "original_path": "./special_animation/14.gif",
     "width": 768,
     "height": 768,
@@ -2019,7 +2019,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0137_special_animation_2.gif",
+    "media_path": "./dataset/0137_special_animation_2.mp4",
     "original_path": "./special_animation/2.gif",
     "width": 768,
     "height": 768,
@@ -2035,7 +2035,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0138_special_animation_3.gif",
+    "media_path": "./dataset/0138_special_animation_3.mp4",
     "original_path": "./special_animation/3.gif",
     "width": 768,
     "height": 768,
@@ -2050,7 +2050,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0139_special_animation_4.gif",
+    "media_path": "./dataset/0139_special_animation_4.mp4",
     "original_path": "./special_animation/4.gif",
     "width": 768,
     "height": 768,
@@ -2065,7 +2065,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0140_special_animation_5.gif",
+    "media_path": "./dataset/0140_special_animation_5.mp4",
     "original_path": "./special_animation/5.gif",
     "width": 768,
     "height": 768,
@@ -2080,7 +2080,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0141_special_animation_6.gif",
+    "media_path": "./dataset/0141_special_animation_6.mp4",
     "original_path": "./special_animation/6.gif",
     "width": 768,
     "height": 768,
@@ -2095,7 +2095,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0142_special_animation_7.gif",
+    "media_path": "./dataset/0142_special_animation_7.mp4",
     "original_path": "./special_animation/7.gif",
     "width": 768,
     "height": 768,
@@ -2111,7 +2111,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0143_special_animation_8.gif",
+    "media_path": "./dataset/0143_special_animation_8.mp4",
     "original_path": "./special_animation/8.gif",
     "width": 768,
     "height": 768,
@@ -2126,7 +2126,7 @@
     ]
   },
   {
-    "media_path": "./dataset/0144_special_animation_9.gif",
+    "media_path": "./dataset/0144_special_animation_9.mp4",
     "original_path": "./special_animation/9.gif",
     "width": 768,
     "height": 768,
