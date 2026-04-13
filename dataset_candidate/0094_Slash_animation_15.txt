@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the figure begins in a prepared stance with knees bent, one foot forward, and sword drawn diagonally behind, then smoothly elevates the sword overhead as their torso stretches up and back, transitioning into a downward slash marked by arm extension and a sweeping blue energy effect that arcs forward, before the figure follows through the motion with a grounded stance and returns to the original prepared pose with the sword raised slightly in recovery, on a solid #00ff00 background.
+
+COLOR PALLET USED: #00FF00, #47B6CC, #3D72CC, #3F3F74, #8F563B, #B58250, #522142, #7A4282, #663931, #7DE5FA, #306082, #222034, #699EFA

@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the blond-haired fighter begins in an aggressive stance with knees bent, fists clenched near the chest, and a focused expression, then rotates his upper torso slightly forward while extending his rear arm in a powerful, direct punch, with the punching arm fully extending straight and firm, the forward hand retracting to guard position as the torso and stance subtly adjust with the motion, and finally resets back to the initial defensive stance, all performed seamlessly and dynamically on a solid #00ff00 background.
+
+COLOR PALLET USED: #00FF00, #60512B, #AF9246, #ECC85E, #B77149, #583622, #E09B70, #593621, #5A3621, #1D1D1C, #EAD9CE, #2B5ABF, #775D50, #A5826D, #381B1C, #7A360F, #B55117, #343434, #828282, #0F0F0F, #353535

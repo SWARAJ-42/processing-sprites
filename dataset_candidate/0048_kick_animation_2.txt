@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, starts with the figure standing upright with both hands raised defensively near the torso before transitioning into a preparatory crouch while shifting weight onto one leg; the character swiftly rotates the upper body with arms retracted as the kicking leg rises diagonally into a full high roundhouse kick, extending forcefully to show dynamic balance and precision, then retracts the leg sharply back to the initial stance, completing the motion with a return to a defensive upright posture on a solid #0000ff background.
+
+COLOR PALLET USED: #0000FF, #0000FE, #686850, #A8A888, #E0D8B8, #F8F8F8, #504850, #282028, #403840, #000000, #484838, #F8B068, #F8D898, #E08040, #A04808, #580800, #F8F8B0

@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, showcasing a dynamic slash sequence as the character begins by raising a long sword overhead with both hands, legs braced and left foot slightly forward for stability, then swiftly drives the blade downward with a powerful arc, creating a curved slashing effect, before smoothly returning to a neutral stance with the weapon lowered diagonally across their front, their posture resetting and ready for the next action, on a solid #909090 background.
+
+COLOR PALLET USED: #909090, #A8A8A8, #BABABA, #A1A0A0, #2D1F1E, #FFDAB2, #131318, #492409, #C9AD8F, #461B1B, #616161, #282829, #2B2B2C, #2A2A2B, #29292B, #3B3B3C, #525151, #C19600, #2E1F1E, #828282

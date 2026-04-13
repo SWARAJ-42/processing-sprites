@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, featuring a cloaked figure standing firmly with their feet slightly apart while holding a rifle; the animation begins with a steady pose, followed by a rapid muzzle flash as the figure fires the weapon, ejecting glowing projectiles with smoke trails, then settles back to the original stance as residual energy dissipates, all with sharp coordinated movements in the arms and balanced tension through the legs on a solid #c85e5e background.
+
+COLOR PALLET USED: #C85E5E, #4483C8, #2663A7, #E37F26, #FFC450, #18406B, #D1D5D7, #F29F7D, #F39999, #75777A, #46484A, #30FCF1, #B1FFFA, #F9FAFB, #FFDAB8, #1E2327, #B4B6BA, #384148, #283849, #466984

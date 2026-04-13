@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, a skeletal figure with a glowing blue outline and red eyes starts upright holding a long sword, transitions into a crouched pose slightly tilting forward as the sword is prepared behind the body, sweeps the sword in a dynamic upward diagonal slash while stepping forward with a visible arcing white trail of energy, then gradually returns to a neutral standing position to reset the posture, on a solid #303030 background.
+
+COLOR PALLET USED: #303030, #CBDBFC, #6B676A, #9BADB7, #401313, #70646A, #D71212, #FFFFFF, #663931, #DF7126, #847E87

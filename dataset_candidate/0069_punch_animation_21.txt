@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the character stands with feet spread and torso slightly angled, starting with both fists raised defensively near the face; transitioning into a strong forward punch where the left arm extends fully while the body pivots slightly, the right fist remaining guarded; a burst effect emerges from the impact point, expanding outward as the punch reaches full extension; the character retracts the arm smoothly, returning to the initial guarded stance, maintaining steady foot positioning throughout the sequence on a solid #3868ba background.
+
+COLOR PALLET USED: #3868BA, #4984BB, #3868B9, #0E3B8C, #FEFFFE, #FEFFFD, #D98482, #D9B882, #82D7D9, #4F5277, #82A2D9, #21233B, #F7FFF2

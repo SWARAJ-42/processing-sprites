@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the blonde, muscular character begins in a stable stance with clenched fists close to his chest, displaying a firm gaze; he slightly leans forward as his left arm starts to extend, maintaining balance with a solid footing; the motion intensifies as his body’s torso twists slightly, transferring force into an aggressive straight punch with the arm fully extended; he retracts the punch back quickly, returning to the initial guarded pose with fists raised, ready to strike again, on a solid #00ff00 background.
+
+COLOR PALLET USED: #00FF00, #60512B, #AF9246, #ECC85E, #B77149, #583622, #E09B70, #573622, #1D1D1C, #EAD9CE, #1D1C1B, #2B5ABF, #775D50, #A5826D, #381B1C, #B55117, #7A360F, #343434, #828282, #0F0F0F

@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the character begins in a neutral stance with hands raised in preparation, then shifts their torso slightly forward with a bent arm elbowing at chest height, followed by a rapid extension of the front arm in a full-force punch while the back arm stays retracted, the punch reaches full extension with the character’s body leaning subtly forward to emphasize impact, then the front arm retracts quickly and the character returns briskly to the starting guard position, maintaining dynamic balance throughout the motion on a solid #0000ff background.
+
+COLOR PALLET USED: #0000FF, #0000FE, #E2A50D, #FFBD44, #393939, #383838, #D3D3D3, #262626, #000000

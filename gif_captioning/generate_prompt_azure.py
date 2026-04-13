@@ -1,8 +1,12 @@
-import sys
 import base64
 from openai import AzureOpenAI
 import os
 from dotenv import load_dotenv
+import tempfile
+from PIL import Image
+import io
+
+MAX_SIZE = 1024
 
 load_dotenv()
 
@@ -17,6 +21,54 @@ client = AzureOpenAI(
     api_key=subscription_key,
 )
 
+MAX_COLORS = 256      # limit if needed
+
+
+def extract_palette(image_bytes: bytes) -> str:
+    img = Image.open(io.BytesIO(image_bytes)).convert("RGBA")
+
+    pixels = img.getdata()
+    seen = set()
+    colors = []
+
+    for r, g, b, a in pixels:
+        if a == 0:
+            continue
+        key = (r, g, b)
+        if key not in seen:
+            seen.add(key)
+            colors.append(key)
+            if len(colors) >= MAX_COLORS:
+                break
+
+    return f"COLOR PALLET USED: {", ".join(f"#{r:02X}{g:02X}{b:02X}" for r, g, b in colors)}"
+
+# -----------------------------
+# RESIZE (MAX 1024)
+# -----------------------------
+def resize_if_needed(image):
+    w, h = image.size
+    scale = min(MAX_SIZE / w, MAX_SIZE / h, 1)
+
+    if scale < 1:
+        image = image.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+
+    return image
+
+# -----------------------------
+# GET BG COLOR
+# -----------------------------
+def get_bgcolor(metadata_path, gif_name):
+    import json
+
+    with open(metadata_path, "r") as f:
+        data = json.load(f)
+
+    for item in data:
+        if gif_name in item["media_path"]:
+            return item.get("bgcolor", "#ffffff")  # fallback
+
+    return "#ffffff"
 
 def encode_image_bytes(image_bytes):
 
@@ -57,7 +109,28 @@ IMPORTANT:
 HINT (from filename): {gif_name}
 """
 
-def generate_prompt_bytes(image_bytes, token, rows, cols, num_frames, bgcolor, gif_name):
+def generate_prompt_bytes(sheet, token, rows, cols, num_frames, gif_name, metadata_path, gif_path):
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+        temp_path = tmp.name
+        sheet.save(temp_path)
+    
+    with open(temp_path, "rb") as f:
+        image_bytes = f.read()
+
+    color_pallete = extract_palette(image_bytes)
+
+    sheet = resize_if_needed(sheet)
+
+    bgcolor = get_bgcolor(metadata_path, gif_path.name)
+
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+        temp_path = tmp.name
+        sheet.save(temp_path)
+
+    with open(temp_path, "rb") as f:
+        image_bytes = f.read()
+
+    os.remove(temp_path)
 
     base64_image = encode_image_bytes(image_bytes)
 
@@ -89,4 +162,4 @@ def generate_prompt_bytes(image_bytes, token, rows, cols, num_frames, bgcolor, g
 
     # print(response)
 
-    return f"{token}, {response.choices[0].message.content.strip("\"")}".strip()
+    return f"{token}, {response.choices[0].message.content.strip("\"")}\n\n{color_pallete}".strip()

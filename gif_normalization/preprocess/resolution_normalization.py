@@ -97,6 +97,53 @@ def _pad_to_32(
 
     return out, new_w, new_h
 
+def _pad_to_square(
+    frames: List[Image.Image],
+    bg: Tuple[int, int, int],
+) -> Tuple[List[Image.Image], int, int]:
+    """
+    Symmetrically pad frames so width == height (square canvas).
+    
+    IMPORTANT:
+    - Uses background colour for padding
+    - Does NOT distort content
+    """
+    w, h = frames[0].size
+    size = max(w, h)
+
+    if w == h:
+        return frames, w, h
+
+    pad_left = (size - w) // 2
+    pad_top  = (size - h) // 2
+
+    out: List[Image.Image] = []
+    bg_rgba = (*bg, 255)
+
+    for frame in frames:
+        canvas = Image.new("RGBA", (size, size), bg_rgba)
+        canvas.paste(frame.convert("RGBA"), (pad_left, pad_top))
+        out.append(canvas)
+
+    return out, size, size
+
+def _resize_to_768(
+    frames: List[Image.Image],
+    w: int,
+    h: int,
+) -> Tuple[List[Image.Image], int, int]:
+    """
+    Resize frames to 768x768 using NEAREST to preserve pixel art.
+    
+    NOTE:
+    - No interpolation → no pixel tearing
+    - Square input ensures uniform scaling
+    """
+    if w == 768 and h == 768:
+        return frames, w, h
+
+    out = [f.resize((768, 768), Image.NEAREST) for f in frames]
+    return out, 768, 768
 
 # ---------------------------------------------------------------------------
 # Step 2 – Scale so min-side >= 512
@@ -181,19 +228,18 @@ def normalize_resolution(
         )
 
     # --- Step 1: pad to multiples of 32 --------------------------------------
-    frames, w, h = _pad_to_32(frames, bg)
+    frames, w, h = _pad_to_square(frames, bg)
     if (w, h) != (orig_w, orig_h):
         warnings.append(
             f"resolution_normalization: padded {orig_w}×{orig_h} → {w}×{h} "
-            f"(symmetric, colour #{bg[0]:02x}{bg[1]:02x}{bg[2]:02x})."
+            f"(square, symmetric, colour #{bg[0]:02x}{bg[1]:02x}{bg[2]:02x})."
         )
 
-    # --- Step 2: scale up if min side < 512 ----------------------------------
-    frames, w, h, scaled = _scale_to_min512(frames, w, h)
-    if scaled:
-        warnings.append(
-            f"resolution_normalization: upscaled to {w}×{h} so min-side ≥ 512 (Lanczos)."
-        )
+    # --- Step 2: resize to 768x768 --------------------------------------
+    frames, w, h = _resize_to_768(frames, w, h)
+    warnings.append(
+        "resolution_normalization: resized to 768×768 using NEAREST (pixel-perfect)."
+    )
 
     # Sanity checks
     if w % 32 != 0 or h % 32 != 0:

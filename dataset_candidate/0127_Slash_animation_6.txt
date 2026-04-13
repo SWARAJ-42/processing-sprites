@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, featuring a humanoid figure with a dark outfit, wielding a gleaming crescent-shaped weapon; the motion begins with the character leaning back, weapon raised horizontally above the shoulder and slightly tilted, transitioning to a wide sideways slash that releases an arcing white energy trail curving outward, followed by the character finishing in a low crouch with the weapon planted downward as the energy dissipates, on a solid #847d65 background.
+
+COLOR PALLET USED: #847D65, #CBCBCB, #445574, #735B38, #4F282D, #C79C6E, #DAC184, #B67450, #8F462A, #7F4F39, #AA552E, #CB4C2B, #A44727, #843426, #775040, #7B342F, #C84C34

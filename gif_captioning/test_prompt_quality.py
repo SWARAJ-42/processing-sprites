@@ -16,7 +16,7 @@ def test_random_samples(dataset_path, n=3):
         print("\n==============================")
         print(f"GIF: {gif.name}")
 
-        prompt = process_gif(gif, "Pksnjfs", metadata_path)
+        prompt = process_gif(gif, "Pksnjfs", metadata_path, gif.name)
 
         print("PROMPT:")
         print(prompt)

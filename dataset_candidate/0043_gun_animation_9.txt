@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, depicting a humanoid figure wielding a firearm as they perform a shooting action with precision; the sequence begins with the character standing firmly in a wide stance, holding the weapon chest-high, then transitioning into recoil motion as the gun discharges with a bright muzzle flash, followed by a white projectile streaking forward and diminishing in visibility; the character's arms and torso demonstrate realistic backward movement due to recoil, before settling back into the initial aiming position with controlled re-composure, maintaining focus and readiness throughout on a solid #8fb9ac background.
+
+COLOR PALLET USED: #8FB9AC, #222F46, #1C253A, #4C686C, #334152, #A1F689, #FFFFFF, #BDDFCC, #65908B

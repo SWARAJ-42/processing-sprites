@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, a red-hooded figure wields a large axe while standing on grassy terrain; the motion begins as the character raises the axe above their head, slightly leaning backward with extended arms to build momentum, then rapidly swings the blade in a downward arc, generating a striking effect with the axe now fully extended forward, and the sequence ends as the figure stands upright holding the weapon low, conveying completion of a powerful slashing action, on a solid #596b78 background.
+
+COLOR PALLET USED: #6A8899, #5C9EE6, #000000, #BBD7DD, #B4C9D4, #596B78, #8A6F30, #AC3232, #D63848, #627885, #7DA0B3, #FAD91E, #FEF2AF, #FBFCFC, #E6E6E6, #FBFCFD, #FAFBFC, #9C7A35, #82BF26, #199603, #136E03, #695603, #403402, #302801, #9C860B, #4D4002

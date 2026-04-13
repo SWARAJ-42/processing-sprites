@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, depicting a blue-haired warrior wearing a red outfit and wielding a glowing yellow sword, starting with a neutral pose and transitioning into a dynamic slashing attack; the character’s stance shifts first as they step forward, raising the sword behind their head while recoiling slightly, then swinging the sword horizontally with a fluid, powerful motion, creating a visible energy streak in the blade’s trajectory, before returning to a poised stance, on a solid #ff00ff background.
+
+COLOR PALLET USED: #FE00FE, #FF00FF, #0F1839, #80B847, #112E79, #BDD55E, #FAF0CF, #0E3EBC, #B06356, #F7B68A, #650A29, #4A636B, #79A1AE, #B7B6B7, #BF1E46, #B6B5B7, #A52E45, #EE6688, #2E3F44, #B6B4B7

@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, begins with a character running forward with dynamic arm and leg motion, transitioning into an anticipatory crouch as a glowing blue projectile emerges from their hands, expanding outward rapidly; the character straightens slightly in synchronization with the projectile's movement before returning to a running stance, completing the cycle on a solid #ffffff background.
+
+COLOR PALLET USED: #FFFFFF, #FEFEFE, #000000, #00CCCC, #66CCCC, #33CCCC, #333333, #999999, #99CCCC, #CCCCCC, #666666, #663300, #996633, #CC6600, #CC9966, #CCCC99, #330000, #CC3300, #660000, #663366, #663333, #663399, #CC9900, #993300, #000099, #0033CC, #666633, #000066, #996666, #000033, #990000, #CCCC66, #333399, #9999CC, #660066, #660033, #330033

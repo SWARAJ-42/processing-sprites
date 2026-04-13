@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, depicting a humanoid figure gracefully transitioning into a walk cycle where the leading leg extends forward while the trailing leg pushes back, arms swing oppositely in tandem with the leg movements, the posture adjusts subtly from upright to a slight tilt forward for momentum, and the head remains steady while aligning with the body's motion rhythm, continuously looping with seamless fluidity on a solid #ffffff background.
+
+COLOR PALLET USED: #FEFEFE, #FFFFFF, #333333, #CC9999, #003333, #99CCCC, #996666, #9999CC, #669999, #999999, #333366, #666666, #336666, #666699, #999966, #CCCCCC

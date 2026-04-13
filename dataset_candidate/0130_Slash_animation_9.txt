@@ -1,0 +1,3 @@
+PBmcK7uc, 2D character animation, side view, the figure begins standing with a sword pointed slightly downward, shifting weight as the sword lifts overhead; a dynamic forward slash follows, with the blade carving a swift arc through the air in a glowing trail, the figure leaning into the motion with legs braced and torso twisting for leverage; as the slash completes, the glowing arc dissipates while the character returns to a neutral stance, smoothly transitioning back to their starting position on a solid #827094 background.
+
+COLOR PALLET USED: #827094, #C5C5C5, #D9DCDE, #71657B, #D9DBDD, #5C5265, #C6A28E, #4E4557, #47384A, #D2B2A0, #372525, #6F544C, #D5D7D9, #D3D4D5, #231718, #D5D6D8, #DADDDF, #020000
