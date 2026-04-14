@@ -52,9 +52,9 @@ if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 
 from preprocess.transparency_handling import handle_transparency
-from preprocess.frame_normalization import normalize_frame_count
+from preprocess.frame_normalization import normalize_frame_count, save_normalized_output
 from preprocess.resolution_normalization import normalize_resolution
-from utils.io_utils import find_gifs, load_gif_frames, relative_posix, save_gif
+from utils.io_utils import find_gifs, load_gif_frames, relative_posix
 
 
 # ---------------------------------------------------------------------------
@@ -103,6 +103,11 @@ def _process_single_gif(
 ) -> Dict[str, Any]:
     """
     Load, preprocess, and save one GIF.  Returns a metadata dict.
+
+    Both a .gif (backward compat) and a .mp4 (frame-exact) are written.
+    The MP4 carries the same stem as the GIF — only the extension differs.
+    The MP4 is the authoritative source for frame count because GIF encoders
+    may collapse duplicate frames introduced by Bresenham upsampling.
     """
     all_warnings: List[str] = []
     bgcolor_hex = "#ffffff"  # default; updated by transparency step
@@ -135,40 +140,50 @@ def _process_single_gif(
         # ======================================================
 
         # -- Save ---------------------------------------------------------------
-        out_name = _make_output_name(index, src_path, root_dir)
-        out_path = dataset_dir / out_name
-        save_gif(frames, durations, out_path)
+        # save_normalized_output writes BOTH:
+        #   <out_name>.gif  — kept for backward compatibility with any tooling
+        #                     that already consumes GIFs; note that a GIF
+        #                     encoder may still collapse identical frames.
+        #   <out_name>.mp4  — frame-exact; use this for LTX 2.3 training.
+        #                     ffmpeg writes every frame to its own timestamp
+        #                     so Bresenham-duplicated frames are never dropped.
+        out_name  = _make_output_name(index, src_path, root_dir)
+        out_path  = dataset_dir / out_name          # .gif
+        gif_saved, mp4_saved = save_normalized_output(frames, durations, out_path)
 
         # -- Metadata -----------------------------------------------------------
-        rel_media   = "./" + relative_posix(out_path,  root_dir)
-        rel_original = "./" + relative_posix(src_path, root_dir)
-        resolution  = _resolution_bucket(width, height)
+        rel_media_gif = "./" + relative_posix(Path(gif_saved), root_dir)
+        rel_media_mp4 = "./" + relative_posix(Path(mp4_saved), root_dir)
+        rel_original  = "./" + relative_posix(src_path, root_dir)
+        resolution    = _resolution_bucket(width, height)
 
         return {
-            "media_path":    rel_media,
-            "original_path": rel_original,
-            "width":         width,
-            "height":        height,
-            "num_frames":    len(frames),
-            "resolution":    resolution,
-            "bgcolor":       bgcolor_hex,
-            "caption":       "",
-            "warnings":      all_warnings,
+            "media_path":     rel_media_gif,   # GIF path (backward compat key)
+            "media_path_mp4": rel_media_mp4,   # MP4 path (frame-exact)
+            "original_path":  rel_original,
+            "width":          width,
+            "height":         height,
+            "num_frames":     len(frames),
+            "resolution":     resolution,
+            "bgcolor":        bgcolor_hex,
+            "caption":        "",
+            "warnings":       all_warnings,
         }
 
     except Exception as exc:  # noqa: BLE001
         tb = traceback.format_exc()
         rel_original = "./" + relative_posix(src_path, root_dir)
         return {
-            "media_path":    None,
-            "original_path": rel_original,
-            "width":         None,
-            "height":        None,
-            "num_frames":    None,
-            "resolution":    None,
-            "bgcolor":       None,
-            "caption":       "",
-            "warnings":      [f"FATAL: {exc}", tb],
+            "media_path":     None,
+            "media_path_mp4": None,
+            "original_path":  rel_original,
+            "width":          None,
+            "height":         None,
+            "num_frames":     None,
+            "resolution":     None,
+            "bgcolor":        None,
+            "caption":        "",
+            "warnings":       [f"FATAL: {exc}", tb],
         }
 
 
@@ -179,7 +194,8 @@ def _process_single_gif(
 def run_pipeline(root_dir: str | Path, workers: Optional[int] = None) -> Path:
     """
     Process all GIFs found under *root_dir* and write:
-        <root_dir>/dataset/<name>.gif  for each processed GIF
+        <root_dir>/dataset/<name>.gif  for each processed GIF (backward compat)
+        <root_dir>/dataset/<name>.mp4  for each processed GIF (frame-exact)
         <root_dir>/dataset/metadata.json
 
     Returns the path to the dataset directory.
@@ -226,12 +242,16 @@ def run_pipeline(root_dir: str | Path, workers: Optional[int] = None) -> Path:
             except Exception as exc:  # noqa: BLE001
                 rel = "./" + relative_posix(gif_paths[idx], root_dir)
                 results[idx] = {
-                    "media_path": None,
-                    "original_path": rel,
-                    "width": None, "height": None,
-                    "num_frames": None, "resolution": None,
-                    "bgcolor": None, "caption": "",
-                    "warnings": [f"Worker crashed: {exc}"],
+                    "media_path":     None,
+                    "media_path_mp4": None,
+                    "original_path":  rel,
+                    "width":          None,
+                    "height":         None,
+                    "num_frames":     None,
+                    "resolution":     None,
+                    "bgcolor":        None,
+                    "caption":        "",
+                    "warnings":       [f"Worker crashed: {exc}"],
                 }
 
             src = gif_paths[idx].name

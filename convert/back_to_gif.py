@@ -5,7 +5,7 @@ import subprocess
 # CONFIG
 # ------------------------------------------------------------------
 
-INPUT_DIR = "./dataset"   # folder with mp4 files
+INPUT_DIR = "./dataset_candidate"   # folder with mp4 files
 OUTPUT_DIR = "./dataset_gifs"   # where gifs will be saved
 FPS = 12                    # adjust if needed (lower = smaller file)
 

@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dotenv>=0.9.9",
+    "imageio[ffmpeg]>=2.37.3",
     "numpy>=2.4.4",
     "openai>=2.30.0",
     "opencv-python>=4.13.0.92",

@@ -31,12 +31,17 @@ Pass-through  (source == target)
 Public API
 ----------
     normalize_frame_count(frames, durations) -> (frames, durations, warnings)
+    save_normalized_output(frames, durations, gif_path)
+        -> Saves both <gif_path> and <stem>.mp4 side-by-side.
 """
 
 from __future__ import annotations
 
+import os
+from pathlib import Path
 from typing import List, Tuple
 
+import numpy as np
 from PIL import Image
 
 
@@ -192,3 +197,118 @@ def normalize_frame_count(
         )
 
     return out_frames, out_dur, warnings
+
+
+# ---------------------------------------------------------------------------
+# Dual save: GIF (backward compat) + MP4 (frame-exact)
+# ---------------------------------------------------------------------------
+
+def save_normalized_output(
+    frames: List[Image.Image],
+    durations: List[int],
+    gif_path: str | os.PathLike,
+) -> Tuple[str, str]:
+    """
+    Save the normalized frames as **both** a GIF and an MP4.
+
+    Why two formats?
+    ----------------
+    GIF encoders (including Pillow) may collapse consecutive identical frames
+    during palette/LZW optimisation, silently discarding the duplicates that
+    Bresenham upsampling intentionally introduced.  MP4 (via imageio + ffmpeg)
+    writes every frame to its own timestamp, so the exact frame count is
+    always preserved — which is the guarantee LTX 2.3 requires.
+
+    The MP4 file is written alongside the GIF with the same stem and only
+    the extension changed:
+        /path/to/animation.gif  ->  /path/to/animation.mp4
+
+    Parameters
+    ----------
+    frames    : normalized frame list (PIL.Image, RGBA or RGB)
+    durations : per-frame duration in milliseconds (must match len(frames))
+    gif_path  : destination path for the GIF file
+
+    Returns
+    -------
+    (gif_path_str, mp4_path_str)
+        Absolute paths to the two files that were written.
+
+    Raises
+    ------
+    ImportError  if imageio or its ffmpeg plugin are unavailable.
+    ValueError   if frames and durations lengths do not match.
+    """
+    if len(frames) != len(durations):
+        raise ValueError(
+            f"save_normalized_output: frames ({len(frames)}) and "
+            f"durations ({len(durations)}) must have the same length."
+        )
+
+    gif_path = Path(gif_path).resolve()
+    mp4_path = gif_path.with_suffix(".mp4")
+
+    # ------------------------------------------------------------------
+    # 1. GIF — saved for backward compatibility.
+    #    disable_minimal_update=True stops Pillow stripping "identical"
+    #    delta frames; optimize=False keeps every palette entry intact.
+    # ------------------------------------------------------------------
+    gif_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Convert all frames to RGBA palette-safe P mode for GIF
+    gif_frames = []
+    for frame in frames:
+        gif_frames.append(frame.convert("RGBA"))
+
+    gif_frames[0].save(
+        gif_path,
+        format="GIF",
+        save_all=True,
+        append_images=gif_frames[1:],
+        duration=durations,          # list of per-frame ms values
+        loop=0,
+        optimize=False,              # do NOT strip duplicate palette entries
+        disposal=2,                  # full-frame replace — no delta blending
+    )
+
+    # ------------------------------------------------------------------
+    # 2. MP4 — every frame written to its own timestamp; duplicates are
+    #    truly preserved because ffmpeg does not perform frame dedup.
+    #
+    #    fps is derived from the *median* per-frame duration so that the
+    #    container's constant frame-rate assumption matches the animation.
+    #    A small epsilon guard avoids division by zero.
+    # ------------------------------------------------------------------
+    try:
+        import imageio
+    except ImportError as exc:
+        raise ImportError(
+            "imageio is required for MP4 output. "
+            "Install it with:  pip install imageio[ffmpeg]"
+        ) from exc
+
+    median_dur_ms = float(np.median(durations)) if durations else 100.0
+    fps = 1000.0 / max(median_dur_ms, 1.0)
+
+    # imageio expects uint8 RGB numpy arrays
+    np_frames = []
+    for frame in frames:
+        rgb = frame.convert("RGB")
+        np_frames.append(np.asarray(rgb, dtype=np.uint8))
+
+    writer_kwargs = {
+        "fps": fps,
+        "codec": "libx264",
+        "pixelformat": "yuv420p",    # broadest player compatibility
+        "macro_block_size": None,    # let imageio handle odd dimensions
+        "ffmpeg_params": [
+            "-crf", "0",             # lossless — preserves exact pixel values
+            "-preset", "veryslow",   # best compression at lossless quality
+        ],
+    }
+
+    with imageio.get_writer(str(mp4_path), **writer_kwargs) as writer:
+        for np_frame in np_frames:
+            writer.append_data(np_frame)
+
+    return str(gif_path), str(mp4_path)
